@@ -2,7 +2,7 @@ html, body {
     margin: 0;
 }
 body {
-    background-color: #f1f1f1;
+    background-color: rgba(0, 0, 0, 0.734);
     display: flex;
     justify-content: center;
 }
@@ -19,12 +19,13 @@ body {
     width: 85%;
 }
 .menu {
+    font-size: 20px;
     width: 15%;
-    background-color: aqua;
+    background-color: rgba(43, 110, 158, 0.734);;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(31, 126, 194, 0.619);
     min-height: 150px;
     display: flex;
     padding: 10px;
@@ -34,16 +35,18 @@ body {
 }
 .content-form {
     display: flex;
-    background-color: rgb(146, 133, 133);
+    background-color: rgba(141, 147, 159, 0.776);
     justify-content: space-evenly;
+    border-radius: 10px;
 }.content {
-    background-color: rgb(146, 133, 133);
+    background-color: rgb(228, 222, 222);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: rgba(36, 134, 204, 0.619);;
     min-height: 150px;
+
 }
 
 .labels {
@@ -82,8 +85,19 @@ input{
 
 .iframe{
     margin-top: 10px;
-    margin-left:99px;
+    /* margin-left:99px;
     display: flex;
-    align-self: center;
+    align-self: center; */
     border-radius: 10px;
+}
+
+.pag_nomelogo{
+
+    color: rgba(30, 56, 160, 0.947)
+}
+
+.footer-text{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left:25px;
 }
