@@ -21,11 +21,11 @@ body {
 .menu {
     font-size: 20px;
     width: 15%;
-    background-color: rgba(43, 110, 158, 0.734);;
+    background-color: rgba(89, 105, 187, 0.734);
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgba(31, 126, 194, 0.619);
+    background-color: rgb(255, 255, 255);
     min-height: 150px;
     display: flex;
     padding: 10px;
@@ -39,12 +39,12 @@ body {
     justify-content: space-evenly;
     border-radius: 10px;
 }.content {
-    background-color: rgb(228, 222, 222);
+    background-color: rgb(255, 255, 255);
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgba(36, 134, 204, 0.619);;
+    background-color:rgba(30, 26, 134, 0.619);;
     min-height: 150px;
 
 }
@@ -93,11 +93,28 @@ input{
 
 .pag_nomelogo{
 
-    color: rgba(30, 56, 160, 0.947)
+    color: rgba(30, 56, 160, 0.947);
 }
 
 .footer-text{
     font-size: 20px;
     margin-top: 10px;
     margin-left:25px;
+}
+
+table thead th{
+    background-color: rgb(56, 62, 97);
+    color: white;
+    border:solid 1.5px  rgb(41, 47, 80);
+}
+table tbody td{
+    border:solid 1px black;
+    cursor:default;
+}
+table tr:hover td{
+    background-color: rgb(180, 176, 176);
+}
+.descricao{
+    width: 650px;
+    font-size:25px;
 }
